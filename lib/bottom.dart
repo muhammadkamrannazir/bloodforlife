@@ -119,24 +119,16 @@ class _BottomBarState extends State<BottomBar> {
       _selectedIndex = index;
       switch (index) {
         case 0:
-          {
             _title = 'Home';
-          }
           break;
         case 1:
-          {
             _title = 'Requests';
-          }
           break;
         case 2:
-          {
             _title = 'Blood Banks';
-          }
           break;
         case 3:
-          {
             _title = 'Reminder';
-          }
           break;
       }
     });
